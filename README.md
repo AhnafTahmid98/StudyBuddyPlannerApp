@@ -135,5 +135,5 @@ _(Replace the file names with your actual screenshot paths in the repo.)_
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/AhnafTahmid98/Kotlin.git
-   cd Kotlin
+   git clone https://github.com/AhnafTahmid98/StudyBuddyPlannerApp.git
+   cd StudyBuddyPlannerApp

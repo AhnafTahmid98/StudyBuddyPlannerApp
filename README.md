@@ -130,6 +130,16 @@ _(Replace the file names with your actual screenshot paths in the repo.)_
 
 ---
 
+## License
+
+MIT
+
+## Notes
+
+Some parts of this project were created with AI assistance (ChatGPT), under my guidance.  
+All code has been reviewed and tested by me before submission.
+
+
 ## How to Run
 
 1. **Clone the repository**

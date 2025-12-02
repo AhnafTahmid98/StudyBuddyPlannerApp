@@ -32,7 +32,7 @@ You can add tasks, mark them as completed, and see basic statistics about your p
 
 ## Screens
 
-The app has at least three main screens (as required in the assignment):
+The app has three main screens :
 
 1. **Home Screen**
    - Shows a list of tasks.
@@ -117,34 +117,75 @@ The app has at least three main screens (as required in the assignment):
 
 ## Screenshots
 
-_(Replace the file names with your actual screenshot paths in the repo.)_
-
 - **Home screen**  
   ![Home screen](screenshots/home.png)
 
 - **Add task screen**  
-  ![Add task](screenshots/add_task.png)
+  ![Add task screen](screenshots/add_task.png)
 
 - **Stats screen**  
   ![Stats screen](screenshots/stats.png)
 
-- **Test**
-  ![Test](screenshots/test.png)   
+- **Unit test result**  
+  ![Test result](screenshots/test.png)   
 
 ## License
 
 MIT
 
+
+## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/AhnafTahmid98/StudyBuddyPlannerApp.git
+cd StudyBuddyPlannerApp
+```
+
+---
+
+### 2. Open the project in Android Studio
+
+- Open **Android Studio Koala (or newer)**
+- Click **File → Open…**
+- Select the **StudyBuddyPlannerApp** folder
+- Wait until **Gradle sync** finishes successfully
+
+---
+
+### 3. Build and run the app
+
+- Connect an Android device with **USB debugging** enabled  
+  **OR** start an Android Emulator (API 26+)
+- Click the **Run button (green ▶ icon)** in Android Studio
+- The app will build and install automatically on the selected device
+
+---
+
+### 4. (Optional) Install using APK
+
+- Go to **GitHub → Releases → v1.0**
+- Download the **APK file**
+- Copy it to your Android device
+- Tap to install  
+  (enable **Install from unknown sources** if required)
+- Open **StudyBuddy Planner** from your app drawer
+
+---
+
+## Requirements
+
+- Android Studio **Koala** or newer  
+- Android SDK **26+**  
+- Kotlin **2.0.21**  
+- Jetpack Compose **Material 3**  
+- No internet connection required (DataStore works offline)
+
+
+
+
 ## Notes
 
 Some parts of this project were created with AI assistance (ChatGPT), under my guidance.  
 All code has been reviewed and tested by me before submission.
-
-
-## How to Run
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/AhnafTahmid98/StudyBuddyPlannerApp.git
-   cd StudyBuddyPlannerApp

@@ -128,7 +128,8 @@ _(Replace the file names with your actual screenshot paths in the repo.)_
 - **Stats screen**  
   ![Stats screen](screenshots/stats.png)
 
----
+- **Test**
+  ![Test](screenshots/test.png)   
 
 ## License
 
